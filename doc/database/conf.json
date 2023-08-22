@@ -1,0 +1,29 @@
+{
+  "mysql": {
+    "test": {
+      "host": "local_host",
+      "password": "123456",
+      "dbname": "slotsuser",
+      "user": "root",
+      "port": 3306,
+      "charset": "utf8mb4"
+    }
+  },
+  "redis": {
+    "test": {
+      "host": "local_host",
+      "port": 6379,
+      "dbname": 1
+    },
+    "online": {
+      "host": "local_host",
+      "port": 5379
+    }
+  },
+  "mongodb": {
+    "online": {
+      "host": "local_host",
+      "dbname": "slots"
+    }
+  }
+}
